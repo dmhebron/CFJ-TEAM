@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   padding: 15px;
+   margin: 15PX;
+   border-style: solid;
+   border-width: medium;
+   border-color: darkblue;
+}
+img .projects {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+}
