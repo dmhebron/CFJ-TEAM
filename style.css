@@ -92,8 +92,8 @@ li .icons2 {
 }
 
 .footerimage {
-  width: 150px;
-  height: 150px;
-  border-radius: 80px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
   padding: 15px;
 }
