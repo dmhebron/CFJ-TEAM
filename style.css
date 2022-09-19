@@ -69,5 +69,31 @@ body {
 
 /* footer styling */
 
+/*.CFJ-footer {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+}
+.icons2 {
+  flex-direction: row;
+  bottom: 0;
+} */
+
 .CFJ-footer {
-list-style-type: none;}
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+li .icons2 {
+  display: inline;
+}
+
+.footerimage {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+  padding: 15px;
+}
